@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "name": "Image1",
+      "type": "image",
+      "large": "gallery/src/images/img1-lg.jpg",
+      "width:": 800,
+      "height": 400,
+      "thumb": "gallery/src/images/img1-thumb.jpg"
+    },
+    {
+      "name": "Image2",
+      "type": "image",
+      "large": "gallery/src/images/img2-lg.jpg",
+      "width:": 800,
+      "height": 400,
+      "thumb": "gallery/src/images/img2-thumb.jpg"
+    },
+    {
+      "name": "Image3",
+      "type": "video",
+      "large": "gallery/src/images/img3-lg.jpg",
+      "width:": 800,
+      "height": 400,
+      "thumb": "gallery/src/images/img3-thumb.jpg",
+      "mp4": "http://www.w3schools.com/html/mov_bbb.mp4",
+      "webm": "http://video-js.zencoder.com/oceans-clip.webm",
+      "ogg": "http://video-js.zencoder.com/oceans-clip.ogv"
+    },
+    {
+      "name": "Image4",
+      "type": "image",
+      "large": "gallery/src/images/img4-lg.jpg",
+      "width:": 800,
+      "height": 400,
+      "thumb": "gallery/src/images/img4-thumb.jpg"
+    }
+  ]
+}

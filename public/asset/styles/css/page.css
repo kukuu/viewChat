@@ -1,0 +1,313 @@
+ 
+/************************
+Document name: page.css
+Author: Alexander Adu-Sarkodie
+Purpose: Responsice Stylesheet 
+Device Breakpoints: 3 (Desktop, Tablet and Mobile)
+
+**************************/
+
+ h1 {
+	font-size: 2em;
+	padding: 0 0 0 15px;
+	float: :left;
+}
+
+h4 {
+	margin:40px 0 0 0;
+	font-size: 1.3em;
+}
+
+h4.mini-box-2 {
+	margin-top:10px;
+}
+
+
+.header {
+	margin-bottom: 2em;
+	text-align: right;
+}
+
+.banner {
+	margin-bottom: 20px;
+}
+
+.logo {
+	padding: 20px;
+	margin-right: 15px;
+	background-color: #000;
+	font: #fff;
+}
+
+.f-nav {
+	margin: 0 -1em;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 5px; 
+}
+.f-nav li a {
+	display: block;
+	padding: 0.8em 1emre;
+	border-bottom: 1px solid #808080;
+}
+
+.pattern {
+	background: none;
+}
+
+.main-col-l {
+	float: left;
+	width: 74%;
+	margin-right: 10px;	
+}
+
+.main-col-r {
+	float: right;
+	width: 25%;
+
+}
+.invitation {
+	float:right;
+}
+
+.main-content {
+	padding:55px 5px 5px 5px;
+}
+
+
+.summary ul {
+	float:right;
+	list-style-type:disc;
+	margin:-15px 15px 15px 16px;
+}
+
+.summary .summary-inset-header {
+	list-style-type:none;
+	margin-left:-15px;
+}
+
+.social-media-list {
+	border:1px solid red;
+	font-size: 0.88em;
+	/*float:right;*/
+}
+
+
+.posted {
+	color: #000;
+}
+
+.postede,
+.invite {
+	font-size: 0.66em;
+}
+
+
+.commentAuthor, 
+.invite {
+	color: #ffcc33;
+	font-weight: bold;
+}
+
+.ratings {
+	float: right;
+	clear: both;
+}
+
+.mobile {
+	width: 68%;
+}
+
+.red {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.green {
+	color: #00ff00;
+	font-weight: bold;
+}
+
+.search-box {
+	margin-top: 15px;
+	width: 41%;
+	padding:3px;
+}
+
+
+.main-col-r img {
+	margin-top: 15px;
+}
+.container form {
+	margin-left:28%;
+}
+
+.clear-l {
+	clear: left;
+}
+
+.screen .screen-one,
+.screen .screen-two {
+	float: left;
+	width:200px;
+	height:20px;
+	color: #fff;
+	text-align:vertical;
+	font-weight:bold;
+	margin-right: 10px;
+}
+.screen .screen-one {
+	background-color: #00ff00;
+}
+
+.screen .screen-two {
+	background-color: #ff0000;
+}
+.col-r-row  {
+	float:left;
+	margin-left: 15px;
+}
+.rs-bottom {
+	margin-bottom: 0px;
+}
+#country2 {
+	width:100%;
+	margin-bottom:5px;
+}
+.captain {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 40em) {
+	.f-nav-link {
+		display: none;
+	}
+	.f-nav {
+		position: absolute;
+		top: 30px;
+		left: 0;
+		border: 1px solid #000;
+		margin: 80px 0 20px 15px;
+		width: 98%;
+		text-align: center;
+		padding-left: 140px;
+	}
+	.f-nav li {
+		display: inline-block;
+		margin-right: 10.25em;
+		padding: 10px 0 10px 0;
+	}
+	.f-nav li a {
+		border: 0;
+	}
+
+	.header {
+		margin-top: 25px;
+	}
+
+	.social-m {
+
+		position: absolute;
+		top:30px;
+		margin-left: 70%;
+	}
+
+	.social-m input[type=submit] {
+
+		margin-left: 10px;
+	}
+
+	.social-m input[type=text] {
+		/*width: 310px;*/
+	}
+
+	.social-m a {
+		padding-right: 104px;
+	}
+
+	.social-m a.last {
+		padding-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 40em) {
+	.main-content {
+	    padding-top: 0;
+
+	}
+
+
+	.main-col-l {
+		width: 100%;
+		margin-bottom:10px;
+	}
+
+	.f-nav li a,
+	.header {
+		text-align: center;
+	}
+
+	.header {
+		border: none;
+	}
+
+	.social-m {
+		text-align: center;
+		
+	}
+
+	
+@media only screen and (max-width: 768px) {
+	.f-nav li {
+	    display: inline-block;
+	    margin-right: 1.25em;
+	    margin-left: 2%;
+	}
+	.main-col-r {
+		display: none;
+	}
+
+	.thumbs {
+		display:none;
+	}
+
+	.main-col-l {
+		width: 100%;
+	}
+
+	.container .control.next,
+	.container .control.prev {
+		display: none;
+	}
+
+}
+
+
+@media only screen and (min-width: 769px) {
+	.f-nav li {
+	    display: inline-block;
+	    margin-right: 4.25em;
+	}
+	
+}
+
+@media only screen and (max-width: 375px) {
+	.social-m {
+		/*border: 1px solid green;*/
+		margin-right: 30px;
+	}
+
+	.f-nav li {    
+	    margin-right: 0.25em;
+	    font-size: 0.80em;
+	}
+	
+	ul.f-nav li {    
+	    margin-left: 15px;
+	    
+	}
+
+}
+
+

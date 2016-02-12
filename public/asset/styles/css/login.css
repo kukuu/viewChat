@@ -1,0 +1,50 @@
+		.container {
+			margin: auto;
+			text-align: center;
+			width: 50%;
+			border-radius: 25px;
+		    border: 2px solid #73AD21;
+		    padding: 20px; 
+		    margin-top: 20px;
+		    /*background: url(paper.gif);
+		    background-position: left top;
+		    background-repeat: repeat;*/
+		}
+
+		h1 {
+			color: #0000ff;
+			margin-bottom: -32px;
+		}
+		.container form {
+    		margin-left: 0;
+    	}
+    	.search-box {
+   			margin-right: 5px;
+		}
+		.on-board {
+			color: #ffcc33;
+			font-weight: bold;
+			font-size: 2em;
+		}
+		.vc {
+			font-size: 4em;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.vc {
+		    	font-size: 3em;
+			}
+			h1 {
+				margin-left: -80px;
+			}
+
+			div#vd-login.search-box {
+    			width: 65%;
+			}
+
+			.container {
+			    margin: 33% auto;
+			    width: 85%;
+			}
+			
+		}

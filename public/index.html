@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+    <title>jazzUP : Author - Alexander Adu-Sarkodie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/styles/css/main.css">
+    <link rel="stylesheet" href="asset/styles/css/page.css"> 
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--Gallery styles-->
+    <link href="gallery/src/css/normalize.css" rel="stylesheet">
+    <link href="gallery/src/css/cycler.css" rel="stylesheet">
+    <!--end gallery styles-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+	<script  src="scripts/countries.js"></script>
+  </head>
+  <body>
+  	<div class="banner">
+  		<a href="#f-nav" class="f-nav-link">Menu</a>
+		  <h1><span class="logo"><small>jU</small></span>jazzUp<small><small> (Property of Alexander Adu-Sarkodie)</small></small></h1>
+	</div>
+
+	  <div id="pattern" class="pattern mod">
+			<header class="header">
+				<a href="#f-nav" class="f-nav-link">--)</a>
+			</header>
+			<div class="main-content">
+				  <div class="main-col-l">
+				    <h2>Isle of Dogs!! <span class="invite">you can invite up to 7 people to chat (domestic licence)</span></h2>
+					<div class="container">
+				  		<img id="largeImg" class="largeImg" src="" alt="" />
+				        <div class="video"></div>
+				        <div class="thumbs"></div>
+						<div class="screen">
+							<div class="screen-one">Screen 1</div>
+							<div class="screen-two">Screen 2 - Comming soon!</div>
+						</div>
+					</div>
+				  	<div>
+				  		<p><strong>viewChat</strong> is a <i>unique social network experience and chill out forum for discussions, entertainment and shopping</i>. Where, in real time, you can view, chat and monitor all of your media, shopping, entertainment and interactive services from a single self-service interface.<br /><br />
+				  		The owner of the forum (Captain) can invite up to seven more users (Chatters). We combine digital broadcasting  and social networking to steer advertising and fulfilment.
+				  		</p>
+
+				         <div id="content"></div>	
+
+				  	</div>
+				  </div>
+				  <div class="main-col-r">
+				  	<a href="http://localhost:3040/login.html" class="invitation">Send invitation</a>
+				  	<div class="col-r-row">
+						<img  width="158" height="300" class="first" src="asset/images/front-mini-cadigan.jpg" alt="AUTOGRAPH Wrap Front Belted Overcoat">
+						<img  width="158" height="300" class="first" src="asset/images/SD_01_T50_7121_T0_X_EC_90.jpg" alt="AUTOGRAPH Wrap Front Belted Overcoat">
+					</div>
+					<div class="col-r-row">
+						<img  width="158" height="300" class="first" src="asset/images/kitty-zip.jpg" alt="Island Escape 25ml">
+						<img  width="158" height="300" class="first" src="asset/images/SD_07_T22_1786_D9_X_EC_0.jpg" alt="Island Escape 25ml">
+					</div>
+					<div class="col-r-row">
+						<img  width="158" height="300" class="first" src="http://tse1.mm.bing.net/th?&id=OIP.Meed16566e455b2366bf5e01907dd5ff8o0&w=235&h=299&c=0&pid=1.9&rs=0&p=0" alt="AUTOGRAPH Wrap Front Belted Overcoat">
+						<img  width="158" height="300" class="first" src="asset/images/addidas-1.jpg" alt="AUTOGRAPH Wrap Front Belted Overcoat">
+					</div>
+						<p class="rs-bottom" style="clear:both;">Select Country to search for radio station:</p>
+			        	<select id="country2" name="country2"></select>
+			        	 <input type="submit" value="submit" name="submit" style="float:right;">
+				        <br />
+				        <script language="javascript">
+				            populateCountries("country2");
+				        </script>
+				        <div id="radio-results"></div>			
+				 </div>		    
+			</div>
+		
+			<footer>
+				<ul id="f-nav" class="f-nav" role="navigation">
+					<li><a href="#">Shopping</a></li>
+					<li><a href="#">eBooks + Magazines</a></li>
+					<li><a href="#">Entertainment</a></li>
+				</ul>
+				<br />
+			</footer>
+
+			<div class="social-m" class="clear-l">
+				<!--<a href="#">facebook</a>  <a href="#">twitter</a>  <a href="#" class="last">google+</a><br />-->
+				<form name ="myform">
+					<input type="text" class="search-box" name="username" placeholder="Enter your user name"><input type="password" name="pword" class="search-box" placeholder="Enter your password">
+					<input type="button" value="Log in" name="Submit"   onclick="validate()">
+				</form>
+				<p class="captain">Captain only.</p>
+			</div>
+	</div>
+    <script type="text/babel" src="scripts/comment.js"></script>
+    <script src="gallery/src/js/cycler.js"></script>
+    <script  src="scripts/admin-login.js"></script>
+  </body>
+</html>

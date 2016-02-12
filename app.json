@@ -1,0 +1,12 @@
+{
+  "name": "React run time  Interactive Chat Application",
+  "description": "Code for React run time  Interactive Chat Application",
+  "keywords": [ "react", "reactjs", "viewChat" ],
+  "repository": "https://kukuu",
+  "website": "http://www.goldhawk-college.com/istudio/profile.html",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
+
