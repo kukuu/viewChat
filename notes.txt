@@ -1,1 +1,4 @@
-https://github.com/kukuu/viewChat.git
+viewChat is a unique social network chill out forum for discussions, entertainment and shopping, where, in real time, you can view, chat and monitor all of your media, shopping, entertainment and interactive services from a single self-service interface.
+
+The owner of the forum (Captain) can invite up to seven more users (Chatters).
+				
